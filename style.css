@@ -1,21 +1,104 @@
-/* Custom Styles */
-body {
-    font-family: Arial, sans-serif;
+/*CSS Reset*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/*Body Styling*/
+body{
+    
+}
+/*Header Styling*/
+head{
+    
 }
 
+/* Navigation bar styling*/
+/*Navbar Functionality*/
+#navbar {
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    height: 14vh;
+    width: 100vw;
+    font-family: 'Ubuntu Mono', monospace;
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+/*Navbar content functionality*/
+#navcontent {
+    display: flex;
+    justify-content: center;
+}
+
+/*Navbar content styling*/
+ul li {
+    list-style: none;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+ul li a:hover {
+    background-color: red;
+    border-radius: 10px;
+}
+
+
+/*Designing of Hero*/
+#hero {
+    background-image: url("dots3.jpg");
+    background-size:cover;
+   }
 .hero {
-    background: url('hero-image.jpg') no-repeat center center;
-    background-size: cover;
-    color: white;
+    background-image: url("dots3.jpg");
+    background-size:cover;
+   }
+
+/*Designing of Cards*/
+.container mt-5{
+      background: rgb(145, 93, 132);
+}
+#container mt-5{
+      background: rgb(145, 93, 132);
 }
 
+/*Designing of Contact Us*/
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+       border: 2px solid black;
+    border-radius: 15px;
+    margin-botton: 50px;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        border: 2px solid black;
+    border-radius: 15px;
+     margin-botton: 50px;
+}
+
+.form-shape input,
+.form-shape select,
+.form-shape textarea {
+    width: 92%;
+    padding: 0.5rem;
+}
+/*Designing the footer*/
 footer {
-    background-color: #f8f9fa;
+    text-align: center;
+    background-color: light gray;
 }
-
-/* Responsive Media Queries */
-@media (max-width: 768px) {
-    .hero {
-        height: 70vh; /* Adjust height for smaller screens */
-    }
+.container{
+    background-color: light gray;
 }
+#container{
+    background-color: gray
+}
+@media only screen and (min-height:1000px) {
+    #navbar {
+        height: 10vh;
+    }}

@@ -4,25 +4,30 @@
     padding: 0px;
 }
 /*Body Styling*/
-body{
-    
-}
-/*Header Styling*/
-head{
-    
-}
 
+    body {
+        font-family: 'cursive', cursive;
+        margin: 0;
+        padding: 0;
+        background-color: #596d65; /* Fallback color */
+        background-image: src="blackpen.jpg" ; /* Set the background image */
+        background-size: cover; /* Ensures the background covers the entire area */
+        background-position: center; /* Centers the background image */
+        background-repeat: no-repeat; /* Prevents the background from repeating */
+    }
+/*Header Styling*/
 /* Navigation bar styling*/
 /*Navbar Functionality*/
+
 #navbar {
     display: flex;
     flex-direction: column;
-    background-color: gray;
+    background-color: rgb(182, 199, 209);
     height: 14vh;
     width: 100vw;
     font-family: 'Ubuntu Mono', monospace;
     margin-top: 10px;
-    border: 2px solid black;
+    border: 2px solid rgb(151, 127, 127);
     border-radius: 15px;
 }
 
@@ -40,7 +45,7 @@ ul li {
 }
 
 ul li a:hover {
-    background-color: red;
+    background-color: rgb(234, 255, 250);
     border-radius: 10px;
 }
 
@@ -57,10 +62,10 @@ ul li a:hover {
 
 /*Designing of Cards*/
 .container mt-5{
-      background: rgb(145, 93, 132);
+      background: rgb(201, 193, 199);
 }
 #container mt-5{
-      background: rgb(145, 93, 132);
+      background: rgb(214, 209, 213);
 }
 
 /*Designing of Contact Us*/
@@ -70,15 +75,15 @@ ul li a:hover {
     align-items: center;
        border: 2px solid black;
     border-radius: 15px;
-    margin-botton: 50px;
+    margin-bottom: 50px;
 }
 .contact {
     display: flex;
     flex-direction: column;
     align-items: center;
-        border: 2px solid black;
+        border: 2px solid rgb(143, 187, 183);
     border-radius: 15px;
-     margin-botton: 50px;
+     margin-bottom: 50px;
 }
 
 .form-shape input,
